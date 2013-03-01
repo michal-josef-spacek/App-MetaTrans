@@ -5,7 +5,6 @@ author:
   - 'Michal Špaček <skim@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.36
-  Test::NoWarnings: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.36
 distribution_type: module
@@ -19,13 +18,12 @@ name: App-MetaTrans
 no_index:
   directory:
     - inc
-    - t
 requires:
   Config::Find: 0
   Config::General: 0
+  Encode: 0
   LWP::UserAgent: 0
-  Proc::SyncExec: 0
-  Readonly: 0
+  MetaTrans: 1.06
   Tk: 804.027
   Tk::BrowseEntry: 0
   Tk::DialogBox: 0

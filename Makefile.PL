@@ -14,9 +14,9 @@ license 'perl-5';
 name 'App-MetaTrans';
 requires 'Config::Find' => 0;
 requires 'Config::General' => 0;
+requires 'Encode' => 0;
 requires 'LWP::UserAgent' => 0;
-requires 'Proc::SyncExec' => 0;
-requires 'Readonly' => 0;
+requires 'MetaTrans' => '1.06';
 requires 'Tk' => 804.027;
 requires 'Tk::BrowseEntry' => 0;
 requires 'Tk::DialogBox' => 0;
@@ -28,8 +28,6 @@ resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=MetaTrans';
 resources 'homepage' => 'https://github.com/tupinek/App-MetaTrans';
 resources 'repository' => 'git://github.com/tupinek/App-MetaTrans';
-test_requires 'Test::NoWarnings' => 0;
-tests_recursive;
 version '1.00';
 
 # Run.
