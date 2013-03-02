@@ -12,6 +12,7 @@ author 'Michal Špaček <skim@cpan.org>';
 install_script 'bin/metatrans';
 license 'perl-5';
 name 'App-MetaTrans';
+requires 'App-MetaTrans-RunTrans' => '1.06';
 requires 'Config::Find' => 0;
 requires 'Config::General' => 0;
 requires 'Encode' => 0;

@@ -19,6 +19,7 @@ no_index:
   directory:
     - inc
 requires:
+  App-MetaTrans-RunTrans: 1.06
   Config::Find: 0
   Config::General: 0
   Encode: 0
