@@ -1,5 +1,5 @@
 bin/metatrans
-CHANGES
+Changes
 config/metatrans.conf
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
