@@ -29,7 +29,7 @@ resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=MetaTrans';
 resources 'homepage' => 'https://github.com/tupinek/App-MetaTrans';
 resources 'repository' => 'git://github.com/tupinek/App-MetaTrans';
-version '1.00';
+version '1.06';
 
 # Run.
 WriteAll();
