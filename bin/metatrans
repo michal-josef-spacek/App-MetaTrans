@@ -69,6 +69,9 @@ use Config::Find;
 use Config::General qw(ParseConfig SaveConfig);
 use Encode;
 
+# Version.
+our $VERSION = 1.06
+
 ################################################################################
 # initialization                                                               #
 ################################################################################
@@ -826,3 +829,7 @@ under the same terms as Perl itself.
 =head1 SEE ALSO
 
 L<MetaTrans>, L<MetaTrans::Base>, L<Tk>
+
+=head1 VERSION
+
+1.06
