@@ -1,0 +1,70 @@
+NAME
+    metatrans - Perl/Tk frontend to MetaTrans
+
+SYNOPSIS
+        metatrans
+
+CONFIGURATION
+    A configuration file of following structure is expected in
+    "/etc/metatrans.conf" or in "$HOME/.metatrans".
+
+        # plug-ins to be used
+        <modules>
+          # for example
+          add MetaTrans::SlovnikCz
+          add MetaTrans::SeznamCz
+          add MetaTrans::SmsCz
+          add MetaTrans::WordbookCz
+          add MetaTrans::UltralinguaNet
+        </modules>
+
+        # default language to translate from
+        lang_from = eng
+
+        # default language to translate to
+        lang_to   = ger
+
+        # should the matching be done at word boundaries only?
+        # this is a default value (can be changed in "Filtering options")
+        at_bounds = 1
+
+        # default matching type (see help in "Filtering options")
+        # 1 = exact match
+        # 2 = match at start
+        # 3 = match exprression
+        # 4 = match words
+        # 5 = no filtering
+        matching  = 5
+
+        # timeout in seconds
+        timeout   = 15
+
+    After the first run the "~/.metatrans" is automatically overwritten to
+    take into account configuration changes made during apllication run.
+    This deletes all comments and makes the configuration file structure bit
+    ugly.
+
+REPOSITORY
+    <https://github.com/tupinek/App-MetaTrans>
+
+BUGS
+    Please report any bugs or feature requests to
+    "bug-metatrans@rt.cpan.org", or through the web interface at
+    <http://rt.cpan.org>. I will be notified, and then you'll automatically
+    be notified of progress on your bug as I make changes.
+
+AUTHOR
+    Jan Pomikalek, "<xpomikal@fi.muni.cz>"
+
+COPYRIGHT & LICENSE
+    Copyright 2004 Jan Pomikalek, All Rights Reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
+SEE ALSO
+    MetaTrans, MetaTrans::Base, Tk
+
+VERSION
+    1.06
+
