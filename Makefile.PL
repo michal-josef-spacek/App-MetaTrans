@@ -26,7 +26,7 @@ requires 'Tk::ItemStyle' => 0;
 requires 'Tk::LabFrame' => 0;
 requires 'Tk::ROText' => 0;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
-	'?Name=MetaTrans';
+	'?Name=App-MetaTrans';
 resources 'homepage' => 'https://github.com/tupinek/App-MetaTrans';
 resources 'repository' => 'git://github.com/tupinek/App-MetaTrans';
 version '1.06';
