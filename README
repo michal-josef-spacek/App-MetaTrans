@@ -63,7 +63,7 @@ COPYRIGHT & LICENSE
     under the same terms as Perl itself.
 
 SEE ALSO
-    MetaTrans, MetaTrans::Base, Tk
+    MetaTrans, MetaTrans::Base, Tk.
 
 VERSION
     1.06
