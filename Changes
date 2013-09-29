@@ -1,3 +1,4 @@
 1.06
+ - Add REPOSITORY section to doc.
  - Add version to bin/metatrans script.
  - First version (moved from MetaTrans perl module).

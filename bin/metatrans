@@ -808,6 +808,10 @@ SaveConfig($config_file, \%config);
 
 __END__
 
+=head1 REPOSITORY
+
+L<https://github.com/tupinek/App-MetaTrans>
+
 =head1 BUGS
 
 Please report any bugs or feature requests to
