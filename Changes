@@ -4,3 +4,4 @@
  - Add utf8 encoding to doc.
  - Add version to bin/metatrans script.
  - First version (moved from MetaTrans perl module).
+ - Update Module::Install to 1.08 version.
