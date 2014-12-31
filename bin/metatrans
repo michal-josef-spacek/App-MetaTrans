@@ -839,6 +839,7 @@ under the same terms as Perl itself.
 
 L<MetaTrans>,
 L<MetaTrans::Base>,
+L<Task::MetaTrans>,
 L<Tk>.
 
 =head1 VERSION

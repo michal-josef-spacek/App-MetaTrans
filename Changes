@@ -1,6 +1,7 @@
 1.06
  - Add README file.
  - Add REPOSITORY section to doc.
+ - Add Task::MetaTrans to SEE ALSO section in doc.
  - Add utf8 encoding to doc.
  - Add version to bin/metatrans script.
  - First version (moved from MetaTrans perl module).
