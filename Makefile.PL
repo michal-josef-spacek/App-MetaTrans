@@ -8,7 +8,7 @@ use inc::Module::Install;
 # Definition.
 abstract 'Perl/Tk frontend to MetaTrans.';
 author 'Jan Pomikalek <xpomikal@fi.muni.cz>';
-author 'Michal Špaček <skim@cpan.org>';
+author 'Michal Spacek <skim@cpan.org>';
 install_script 'bin/metatrans';
 license 'perl-5';
 name 'App-MetaTrans';
