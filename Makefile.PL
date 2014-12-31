@@ -42,4 +42,3 @@ sub MY::postamble {
 		'(cp -f config/metatrans.conf '.$ENV{'HOME'}.'/.metatrans '.
 		'&& echo '.$ENV{'HOME'}.'/.metatrans)';
 }
-
