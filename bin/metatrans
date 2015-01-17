@@ -72,7 +72,7 @@ use Config::General qw(ParseConfig SaveConfig);
 use Encode;
 
 # Version.
-our $VERSION = 1.06
+our $VERSION = 1.06;
 
 ################################################################################
 # initialization                                                               #
