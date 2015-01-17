@@ -62,8 +62,6 @@ use MetaTrans::Languages qw(get_lang_by_code get_code_by_lang);
 use Tk;
 use Tk::BrowseEntry;
 use Tk::DialogBox;
-use Tk::HList;
-use Tk::ItemStyle;
 use Tk::LabFrame;
 use Tk::ROText;
 

@@ -7,5 +7,6 @@
  - Add version to bin/metatrans script.
  - First version (moved from MetaTrans perl module).
  - Improve AUTHOR section in doc.
+ - Remove obsolete code.
  - Update Module::Install to 1.14 version.
  - Update copyright years.
