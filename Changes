@@ -1,4 +1,5 @@
 1.06
+ - Add DEPENDENCIES section to doc.
  - Add README file.
  - Add REPOSITORY section to doc.
  - Add Task::MetaTrans to SEE ALSO section in doc.
