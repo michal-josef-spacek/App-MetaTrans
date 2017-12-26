@@ -560,11 +560,11 @@ sub populate_from_be
         if ($config{lang_from} && $src_lang_codes_hash{$config{lang_from}})
         {
             $Src_Language = get_lang_by_code($config{lang_from});
-	}
+        }
         elsif ($src_lang_codes[0])
         {
             $Src_Language = get_lang_by_code($src_lang_codes[0]);
-	}
+        }
     }
 }
 
