@@ -9,5 +9,5 @@
  - First version (moved from MetaTrans perl module).
  - Improve AUTHOR section in doc.
  - Remove obsolete code.
- - Update Module::Install to 1.14 version.
+ - Update Module::Install to 1.18 version.
  - Update copyright years.
