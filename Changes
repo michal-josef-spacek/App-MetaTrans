@@ -10,4 +10,5 @@
  - Improve AUTHOR section in doc.
  - Remove obsolete code.
  - Update Module::Install to 1.18 version.
+ - Update author name.
  - Update copyright years.
