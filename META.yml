@@ -18,7 +18,6 @@ name: App-MetaTrans
 no_index:
   directory:
     - inc
-    - t
 requires:
   App-MetaTrans-RunTrans: '1.06'
   Config::Find: 0
